@@ -12,6 +12,6 @@ public class HomeController {
     public String testService()
     {
         String writeResult= MongoDBClient.getDbConnection();
-           return writeResult;
+           return "Boom it's Working";
     }
 }
